@@ -1,0 +1,13 @@
+Exoplanet Exploration
+
+Using data gathered from the NASA Kepler space telescope, I trained several different models to predict whether a record is a candidate expoplanet. 
+
+I used the following methods to build models: Logistic Regression, Decision Tree, Random Forest, K Neighbors, and Support Vector. I also tuned the support vector model with GridSearch. Comparing these models, Random Forests was the most accurate with a test score of 90.5%. Below are the test scores of the other models:
+
+Tuned Support Vector: 88.2%
+Logistic Regression: 83.7%
+Decision Tree: 84.9%
+Support Vector: 84.1%
+K Neighbors: 81.7%
+
+
